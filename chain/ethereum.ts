@@ -357,7 +357,8 @@ export namespace ethereum {
       public value: BigInt,
       public gasLimit: BigInt,
       public gasPrice: BigInt,
-      public input: Bytes
+      public input: Bytes,
+      public nonce: Bytes,
     ) {}
   }
 
